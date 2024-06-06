@@ -11,8 +11,9 @@
   font-family: var(--second-font);
   font-weight: 700;
 }
-p {
+.header-text {
   margin-left: 1px;
+  color: #9093A6;
 }
 .menu {
   display: flex;

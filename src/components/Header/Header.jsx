@@ -13,11 +13,11 @@ const Header = () => {
         <div className='menu'>
           <div className='menu-log_in'>
             <img src={person} alt="user" />
-            <p>Log in</p>
+            <p className='header-text'>Log in</p>
           </div>
           <div className='menu-cart'>
             <img src={cart} alt="cart" />
-            <p>0</p>
+            <p className='header-text'>0</p>
           </div>
           <div className='burger'>
               <span className='burger-line'></span>

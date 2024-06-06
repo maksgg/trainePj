@@ -1,16 +1,38 @@
 section {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 1440px;
+  margin: 0 auto;
+}
+.hero-first-container {
+  position: relative;
   display: flex;
   align-items: center;
-  justify-content: space-around;
-  width: 1440px;
-  height: 800px;
-  margin: 0 auto;
+  justify-content: center;
+  gap: 50px;
+  height: 780px;
+  border: 1px solid #000;
+}
+
+.hero-second-container {
+  position: absolute;
+  bottom: 0;
+  width: 872px;
+  height: 104px;
   border: 1px solid #000;
 }
 .hero-title {
-  width: 510px;
+  position: absolute;
+  left: 115px;
+  width: 538px;
   height: 288px;
   margin-bottom: 250px;
+}
+.image {
+  position: absolute;
+  right: 90px;
+  margin-bottom: 25px;
 }
 h1 {
   margin: 0;
@@ -18,7 +40,7 @@ h1 {
   font-size: 58px;
   line-height: 64px;
   font-weight: 300;
-  letter-spacing: 5%;
+  letter-spacing: 2px;
   color: #3F4255;
 }
 .buttons {

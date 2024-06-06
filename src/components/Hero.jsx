@@ -4,8 +4,9 @@ import banner from '../assets/img/Hero_img.png';
 const Hero = () => {
   return (
     <section>
+      <div className='hero-first-container'>
       <div className='hero-title'>
-        <h1>Your Food court at home</h1>
+        <h1>Your Food court<br /> at home</h1>
         <div className='buttons'>
           <div className='hero-btn'>
             <p>Delivery<br /><span>Order in</span></p>
@@ -15,11 +16,15 @@ const Hero = () => {
           </div>
         </div>
       </div>
-      <div>
+      <div className='image'>
         <img src={banner}
-        width={740}
-        height={635}
+        width={803}
+        height={706}
         alt="Food image" />
+      </div>
+      </div>
+      <div className='hero-second-container'>
+
       </div>
     </section>
   )
