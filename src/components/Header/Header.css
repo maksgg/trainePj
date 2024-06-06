@@ -8,15 +8,16 @@
   height: 72px;
   background-color: #fff;
   border: 1px solid #000;
-  font-family: var(--main);
+  font-family: var(--second-font);
+  font-weight: 700;
 }
-/* .logo-container {
-  margin-right: 250px;
-} */
+p {
+  margin-left: 1px;
+}
 .menu {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  gap: 48px;
   width: 257px;
   height: 48px;
   color: #9093A6;

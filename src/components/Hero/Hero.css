@@ -1,0 +1,49 @@
+section {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 1440px;
+  height: 800px;
+  margin: 0 auto;
+  border: 1px solid #000;
+}
+.hero-title {
+  width: 510px;
+  height: 288px;
+  margin-bottom: 250px;
+}
+h1 {
+  margin: 0;
+  font-family: var(--main-font);
+  font-size: 58px;
+  line-height: 64px;
+  font-weight: 300;
+  letter-spacing: 5%;
+  color: #3F4255;
+}
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 259px;
+  height: 72px;
+  margin-top: 80px;
+  gap: 25px;
+}
+.hero-btn {
+  text-align: center;
+  width: 117px;
+  border: 2px solid #FFE145;
+  border-radius: 4px;
+}
+p {
+  font-family: var(--second-font);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  color: #3F4255;
+}
+p > span {
+  font-size: 12px;
+  font-weight: 400;
+}
