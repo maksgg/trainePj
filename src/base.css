@@ -2,3 +2,8 @@
 :root {
   --main: "Poppins", sans-serif;
 }
+body {
+  width: 1440;
+  height: 3966px;
+  border: 1px solid #000;
+}
