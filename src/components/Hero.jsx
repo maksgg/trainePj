@@ -1,5 +1,8 @@
 import './Hero/Hero.css';
 import banner from '../assets/img/Hero_img.png';
+import timeEat from '../assets/img/time-eat.png';
+import delivery from '../assets/img/delivery.svg';
+import paris from '../assets/img/paris.png';
 
 const Hero = () => {
   return (
@@ -24,7 +27,18 @@ const Hero = () => {
       </div>
       </div>
       <div className='hero-second-container'>
-
+        <div className='hero-component-icon'>
+          <img src={timeEat} alt="icon" />
+          <p>Delivery in all paris<br /> in less than 30 minutes</p>
+          </div>
+        <div className='hero-component-icon'>
+          <img src={delivery} alt="icon" />
+          <p>Free delivery<br /> from 29 euros</p>
+          </div>
+        <div className='hero-component-icon'>
+          <img src={paris} alt="icon" />
+          <p>Only fresh<br /> and French products</p>
+          </div>
       </div>
     </section>
   )

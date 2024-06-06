@@ -7,7 +7,7 @@
   width: 1440px;
   height: 72px;
   background-color: #fff;
-  border: 1px solid #000;
+  border-bottom: 1px solid #9093A6;
   font-family: var(--second-font);
   font-weight: 700;
 }

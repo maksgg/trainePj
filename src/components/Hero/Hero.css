@@ -12,15 +12,18 @@ section {
   justify-content: center;
   gap: 50px;
   height: 780px;
-  border: 1px solid #000;
 }
 
 .hero-second-container {
   position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   bottom: 0;
   width: 872px;
   height: 104px;
-  border: 1px solid #000;
+  background-color: #fff;
+  box-shadow: 0 8px 40px  rgba(0, 0, 0, 0.08);
 }
 .hero-title {
   position: absolute;
@@ -68,4 +71,18 @@ p {
 p > span {
   font-size: 12px;
   font-weight: 400;
+}
+.hero-component-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  width: 246px;
+  height: 56px;
+}
+.hero-component-icon p {
+  font-family: var(--second-font);
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.5px;
 }
