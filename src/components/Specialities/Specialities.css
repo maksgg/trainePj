@@ -1,0 +1,110 @@
+.specialities {
+  width: 1440px;
+  height: 350px;
+  margin: 0 auto;
+}
+.restaurants {
+  position: relative;
+  background-color: #fff;
+  width: 1440px;
+  height: 500px;
+  margin: 0 auto;
+}
+.rest_container1 {
+  width: 1256px;
+  height: 48px;
+  padding-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+h2 {
+  font-family: var(--main-font);
+  font-size: 36px;
+  font-weight: 300;
+  line-height: 64px;
+  letter-spacing: 3px;
+}
+.rest-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #F2F4FA;
+  width: 118px;
+  height: 48px;
+  border-radius: 4px;
+  font-family: var(--second-font);
+  font-weight: 700;
+  color: #9093A6;
+}
+.rest-btn:hover {
+  background-color: #D4D7E5;
+  color: #3F4255;
+  transition: all 0.25s;
+  cursor: pointer;
+}
+.rest_container2 {
+  width: 1256px;
+  padding-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+.rest-img1 {
+  width: 48px;
+  height: 48px;
+  background-image: cover;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.card-preview1 {
+  /* position: relative; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 136px;
+  height: 136px;
+  border-radius: 5px;
+  box-shadow: 0 8px 40px  rgba(0, 0, 0, 0.1);
+}
+.arrow-container1 {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  top: 180px;
+  left: 70px;
+  display: flex;
+  width: 1300px;
+}
+.arrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  box-shadow: 0 8px 40px  rgba(0, 0, 0, 0.1);
+}
+.arrow:hover {
+  box-shadow: 0 8px 40px  rgba(0, 0, 0, 0.25);
+  transition: all 0.25s;
+  cursor: pointer;
+}
+/* .card-preview:hover {
+  box-shadow: 0 8px 40px  rgba(0, 0, 0, 0.2);
+  transition: all 0.2s ease-in;
+  cursor: pointer;
+} */
+
+.specialities-text {
+  font-family: var(--second-font);
+  font-size: 16px;
+  font-weight: 400;
+  color: #313030;
+  padding-bottom: 10px;
+  margin: 0;
+}

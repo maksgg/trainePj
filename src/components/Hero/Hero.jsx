@@ -1,8 +1,8 @@
-import './Hero/Hero.css';
-import banner from '../assets/img/Hero_img.png';
-import timeEat from '../assets/img/time-eat.png';
-import delivery from '../assets/img/delivery.svg';
-import paris from '../assets/img/paris.png';
+import './Hero.css';
+import banner from '../../assets/img/Hero_img.png';
+import timeEat from '../../assets/img/time-eat.png';
+import delivery from '../../assets/img/delivery.svg';
+import paris from '../../assets/img/paris.png';
 
 const Hero = () => {
   return (

@@ -1,0 +1,48 @@
+.places {
+  background-color: #fff;
+  width: 1440px;
+  height: 284px;
+  margin: 0 auto;
+  background-image: url('../../assets/img/bg.png');
+  box-shadow: 0 8px 40px  rgba(0, 0, 0, 0.1);
+}
+.circle-container {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  width: 740px;
+  height: 126px;
+  margin: auto;
+}
+.circle {
+  width: 126px;
+  height: 126px;
+  border: 1px solid #B79C10;
+  z-index: 10;
+  border-radius: 50%;
+  /* Винести елемент вище по z-index через скрипт */
+}
+.colorfulCircle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 126px;
+  height: 126px;
+  background-color: #FFE145;
+  border-radius: 50%;
+}
+.circleNumber {
+  font-family: var(--circle);
+  font-size: 58px;
+  font-weight: 700;
+  color: #3F4255;
+}
+.circle-text {
+  width: 126px;
+  margin: 0;
+  text-align: center;
+  font-family: var(--main-font);
+  font-size: 24px;
+  font-weight: 600;
+  color: #3F4255;
+}
