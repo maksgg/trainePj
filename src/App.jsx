@@ -4,6 +4,8 @@ import Hero from "./components/Hero/Hero";
 import Places from "./components/Places/Places";
 import Restaurants from "./components/Restaurants/Restaurants";
 import Specialities from "./components/Specialities/Specialities";
+import Map from "./components/Map/Map";
+import InstaSection from "./components/InstaSection/InstaSection";
 
 function App() {
 
@@ -15,6 +17,8 @@ function App() {
       <Delivery />
       <Specialities />
       <Places />
+      <Map />
+      <InstaSection />
     </>
   )
 }
