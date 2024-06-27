@@ -6,6 +6,7 @@ import Restaurants from "./components/Restaurants/Restaurants";
 import Specialities from "./components/Specialities/Specialities";
 import Map from "./components/Map/Map";
 import InstaSection from "./components/InstaSection/InstaSection";
+import Footer from "./components/Footer/Footer";
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
       <Places />
       <Map />
       <InstaSection />
+      <Footer />
     </>
   )
 }

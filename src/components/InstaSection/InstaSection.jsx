@@ -6,7 +6,7 @@ import inst4 from '../../assets/img/inst4.png';
 
 const InstaSection = () => {
   return (
-    <section className='restaurants'>
+    <section className='restaurants insta'>
         <div className='rest_container1'>
           <h2 className='h2'>#YellowKitchens <span className='insta-span'>in instagram</span></h2>
         </div>

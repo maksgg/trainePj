@@ -1,0 +1,80 @@
+.footer {
+  height: 437px;
+  background-color: #3F4255;
+}
+.apps {
+  padding-top: 32px;
+  margin-right: 80px;
+}
+.app-container {
+  align-content: end;
+  width: 296px;
+  height: 75px;
+  border-top: 1px solid #D4D7E5;
+  margin-top: 50px;
+}
+.footer-app {
+  margin-right: 10px;
+}
+.footer-info {
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+.h3 {
+  font-family: var(--main-font);
+  font-size: 24px;
+  font-weight: 600;
+  color: #fff;
+}
+.footer-p {
+  font-family: var(--second-font);
+  font-size: 16px;
+  font-weight: 700;
+  color: #D4D7E5;
+  margin: 6px 0;
+}
+.footer-p.p {
+  margin: 16px 0;
+}
+.take-language {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  height: 24px;
+  gap: 5px;
+}
+.language-p {
+  font-family: var(--second-font);
+  font-size: 16px;
+  font-weight: 700;
+  color: #D4D7E5;
+  margin: 0;
+}
+.last {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 700px;
+  padding-top: 70px;
+}
+.socials {
+  display: flex;
+  gap: 20px;
+}
+.reserved {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+}
+.bottom-text {
+  font-family: var(--second-font);
+  font-size: 12px;
+  font-weight: 800;
+  color: #FFFFFF;
+}
+.bottom-text.light {
+  font-weight: 400;
+}
