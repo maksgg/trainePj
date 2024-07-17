@@ -100,7 +100,7 @@ h2 {
     height: 110px;
   }
 }
-@media (max-width: 1180px) {
+@media (max-width: 1280px) {
   .rest_container1 {
     width: 900px;
   }
@@ -119,7 +119,7 @@ h2 {
     display: flex;
   }
 }
-@media (max-width: 1180px) {
+@media (max-width: 980px) {
   .rest_container1 {
     width: 700px;
   }

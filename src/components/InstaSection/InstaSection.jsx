@@ -7,34 +7,34 @@ import inst4 from '../../assets/img/inst4.png';
 const InstaSection = () => {
   return (
     <section className='restaurants insta'>
-        <div className='rest_container1'>
+        <div className='rest_container11'>
           <h2 className='h2'>#YellowKitchens <span className='insta-span'>in instagram</span></h2>
         </div>
-        <div className='rest_container2'>
-          <div className='card-preview'>
+        <div className='rest_container23'>
+          <div className='card-preview23'>
             <img 
-            className='rest-img'
+            className='rest-img11'
             src={inst1} 
             alt="Food" />
             
           </div>
-          <div className='card-preview'>
+          <div className='card-preview23'>
             <img 
-            className='rest-img'
+            className='rest-img11'
             src={inst2} 
             alt="Food" />
             
           </div>
-          <div className='card-preview'>
+          <div className='card-preview23'>
             <img 
-            className='rest-img'
+            className='rest-img11'
             src={inst3} 
             alt="Food" />
            
           </div>
-          <div className='card-preview'>
+          <div className='card-preview23'>
             <img 
-            className='rest-img'
+            className='rest-img11'
             src={inst4} 
             alt="Food" />
             

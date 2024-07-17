@@ -1,6 +1,6 @@
 .places {
   background-color: #fff;
-  width: 1440px;
+  max-width: 1440px;
   height: 284px;
   margin: 0 auto;
   background-image: url('../../assets/img/bg.png');
@@ -46,4 +46,77 @@
   font-size: 24px;
   font-weight: 600;
   color: #3F4255;
+}
+@media (max-width: 1100px) {
+  .circle-container {
+    width: 640px;
+    height: 126px;
+  }
+  .circle,
+  .colorfulCircle {
+    width: 110px;
+    height: 110px;
+  }
+  .circle-text {
+    width: 106px;
+    font-size: 20px;
+  }
+}
+@media (max-width: 900px) {
+  .circle-container {
+    width: 500px;
+    height: 126px;
+  }
+  .circle,
+  .colorfulCircle {
+    width: 90px;
+    height: 90px;
+  }
+  .circleNumber {
+    font-size: 32px;
+  }
+  .circle-text {
+    width: 106px;
+    font-size: 18px;
+  }
+}
+@media (max-width: 768px) {
+  .circle-container {
+    width: 400px;
+    height: 116px;
+  }
+  .circle,
+  .colorfulCircle {
+    width: 80px;
+    height: 80px;
+  }
+  .circleNumber {
+    font-size: 28px;
+  }
+  .circle-text {
+    width: 80px;
+    font-size: 16px;
+  }
+}
+@media (max-width: 550px) {
+  .circle-container {
+    display: grid;
+    /* align-items: center; */
+    align-self: center;
+    grid-template-columns: repeat(2, 70px);
+    width: 200px;
+    height: 216px;
+  }
+  .circle,
+  .colorfulCircle {
+    width: 60px;
+    height: 60px;
+  }
+  .circleNumber {
+    font-size: 20px;
+  }
+  .circle-text {
+    width: 60px;
+    font-size: 14px;
+  }
 }
