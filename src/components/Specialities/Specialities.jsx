@@ -80,10 +80,10 @@ const Specialities = () => {
         
         </div>
         <div className='arrow-container1'>
-            <div className='arrow'>
+            <div className='arrow3'>
               <img src={arrLeft} alt="Arrow" />
             </div>
-            <div className='arrow'>
+            <div className='arrow3'>
               <img src={arrRight} alt="Arrow" />
             </div>
           </div>
