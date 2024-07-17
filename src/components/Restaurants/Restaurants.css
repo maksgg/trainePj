@@ -101,10 +101,12 @@ h2 {
 .arrow:hover {
   box-shadow: 0 8px 40px  rgba(0, 0, 0, 0.25);
   transition: all 0.25s;
+  scale: 1.1;
 }
 .arrow1:hover {
   box-shadow: 0 8px 40px  rgba(0, 0, 0, 0.25);
   transition: all 0.25s;
+  scale: 1.1;
 }
 /* .card-preview:hover {
   box-shadow: 0 8px 40px  rgba(0, 0, 0, 0.2);
@@ -215,7 +217,7 @@ h2 {
   }
   .rest_container2 {
     padding-top: 0px;
-    max-width: 300px;
+    max-width: 280px;
     justify-content: space-around;
   }
   .card-preview {

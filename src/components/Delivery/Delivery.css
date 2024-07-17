@@ -164,6 +164,8 @@
   }
   .delivery-h2 {
     font-size: 16px;
+    text-align: center;
+    width: 280px;
   }
   .delivery-text {
     text-align: center;
