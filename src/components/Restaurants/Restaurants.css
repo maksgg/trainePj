@@ -1,7 +1,7 @@
 .restaurants {
   position: relative;
   background-color: #fff;
-  width: 1440px;
+  max-width: 1440px;
   height: 500px;
   margin: 0 auto;
 }
@@ -40,7 +40,7 @@ h2 {
   cursor: pointer;
 }
 .rest_container2 {
-  width: 1256px;
+  width: 1356px;
   padding-top: 40px;
   display: flex;
   align-items: center;
@@ -53,7 +53,7 @@ h2 {
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  width: 296px;
+  max-width: 296px;
   height: 296px;
   border-radius: 5px;
   box-shadow: 0 8px 40px  rgba(0, 0, 0, 0.1);
@@ -85,14 +85,131 @@ h2 {
   width: 48px;
   height: 48px;
   box-shadow: 0 8px 40px  rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+.arrow1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  box-shadow: 0 8px 40px  rgba(0, 0, 0, 0.1);
+  cursor: pointer;
 }
 .arrow:hover {
   box-shadow: 0 8px 40px  rgba(0, 0, 0, 0.25);
   transition: all 0.25s;
-  cursor: pointer;
+}
+.arrow1:hover {
+  box-shadow: 0 8px 40px  rgba(0, 0, 0, 0.25);
+  transition: all 0.25s;
 }
 /* .card-preview:hover {
   box-shadow: 0 8px 40px  rgba(0, 0, 0, 0.2);
   transition: all 0.2s ease-in;
   cursor: pointer;
 } */
+
+@media (max-width: 1440px) {
+  .rest_container1 {
+    width: 1100px;
+  }
+  .rest_container2 {
+    max-width: 1100px;
+  }
+  .rest-img {
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+  .rest-logo {
+    max-width: 100%;
+  }
+  .arrow-container {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    top: 260px;
+    display: flex;
+    width: 1120px;
+    margin: 0 auto;
+  }
+  .card-preview {
+    width: 227px;
+  }
+}
+@media (max-width: 1200px) {
+  .rest_container1 {
+    width: 900px;
+  }
+  .rest_container2 {
+    padding-top: 80px;
+    width: 900px;
+  }
+  .card-preview {
+    width: 187px;
+    height: 250px;
+  }
+}
+@media (max-width: 1000px) {
+  .rest_container1 {
+    width: 748px;
+  }
+  .rest_container2 {
+    max-width: 748px;
+  }
+  .card-preview {
+    width: 147px;
+    height: 200px;
+  }
+}
+@media (max-width: 800px) {
+  .rest_container1 {
+    width: 568px;
+  }
+  .rest_container2 {
+    max-width: 568px;
+  }
+  .card-preview {
+    width: 177;
+    height: 200px;
+  }
+  .s {
+    display: none;
+  }
+}
+@media (max-width: 668px) {
+  .rest_container1 {
+    width: 450px;
+  }
+  .rest_container2 {
+    max-width: 450px;
+  }
+  .card-preview {
+    width: 162px;
+    height: 180px;
+  }
+  .s1 {
+    display: none;
+  }
+}
+@media (max-width: 500px) {
+  .rest_container1 {
+    width: 360px;
+  }
+  .rest_container1 h2 {
+   font-size: 28px;
+  }
+  .rest_container2 {
+    max-width: 360px;
+  }
+  .card-preview {
+    width: 182px;
+    height: 210px;
+  }
+  .s2 {
+    display: none;
+  }
+}

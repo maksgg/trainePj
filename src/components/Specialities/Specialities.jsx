@@ -19,7 +19,7 @@ const Specialities = () => {
             show all
           </div>
         </div>
-        <div className='rest_container2'>
+        <div className='rest_container22'>
           <div className='card-preview1'>
             <img 
             className='rest-img1'

@@ -1,16 +1,16 @@
 .specialities {
-  width: 1440px;
+  max-width: 1440px;
   height: 350px;
   margin: 0 auto;
 }
-.restaurants {
+/* .restaurants {
   position: relative;
   background-color: #fff;
-  width: 1440px;
+  max-width: 1440px;
   height: 500px;
   margin: 0 auto;
-}
-.rest_container1 {
+} */
+/* .rest_container1 {
   width: 1256px;
   height: 48px;
   padding-top: 50px;
@@ -18,7 +18,7 @@
   align-items: center;
   justify-content: space-between;
   margin: 0 auto;
-}
+} */
 h2 {
   font-family: var(--main-font);
   font-size: 36px;
@@ -44,7 +44,7 @@ h2 {
   transition: all 0.25s;
   cursor: pointer;
 }
-.rest_container2 {
+.rest_container22 {
   width: 1256px;
   padding-top: 40px;
   display: flex;

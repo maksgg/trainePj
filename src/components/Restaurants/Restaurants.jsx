@@ -21,6 +21,10 @@ const Restaurants = () => {
           </div>
         </div>
         <div className='rest_container2'>
+            <div className='arrow'>
+              <img src={arrLeft} alt="Arrow" />
+            </div>
+
           <div className='card-preview'>
             <img 
             className='rest-img'
@@ -33,7 +37,7 @@ const Restaurants = () => {
             height={70} 
             alt="Logo" />
           </div>
-          <div className='card-preview'>
+          <div className='card-preview s2'>
             <img 
             className='rest-img'
             src={restImg2} 
@@ -45,7 +49,7 @@ const Restaurants = () => {
             height={70} 
             alt="Logo" />
           </div>
-          <div className='card-preview'>
+          <div className='card-preview s'>
             <img 
             className='rest-img'
             src={restImg3} 
@@ -57,7 +61,7 @@ const Restaurants = () => {
             height={70} 
             alt="Logo" />
           </div>
-          <div className='card-preview'>
+          <div className='card-preview s1'>
             <img 
             className='rest-img'
             src={restImg4} 
@@ -69,15 +73,10 @@ const Restaurants = () => {
             height={70} 
             alt="Logo" />
           </div>
-        </div>
-        <div className='arrow-container'>
-            <div className='arrow'>
-              <img src={arrLeft} alt="Arrow" />
-            </div>
-            <div className='arrow'>
+          <div className='arrow1'>
               <img src={arrRight} alt="Arrow" />
-            </div>
           </div>
+        </div>
       </section>
     </>
   )
