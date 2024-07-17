@@ -21,8 +21,8 @@ const Hero = () => {
       </div>
       <div className='image'>
         <img src={banner}
-        width={803}
-        height={706}
+        /* width={803}
+        height={706} */
         alt="Food image" />
       </div>
       </div>

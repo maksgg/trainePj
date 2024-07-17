@@ -2,14 +2,16 @@
   margin: 0 auto;
   display: flex;
   align-items: center;
-  justify-content: space-around;
-  gap: 600px;
-  width: 1440px;
+  justify-content: space-between;
+  max-width: 1440px;
   height: 72px;
   background-color: #fff;
   border-bottom: 1px solid #9093A6;
   font-family: var(--second-font);
   font-weight: 700;
+}
+.logo-container {
+  padding-left: 100px;
 }
 .header-text {
   margin-left: 1px;
@@ -22,16 +24,27 @@
   width: 257px;
   height: 48px;
   color: #9093A6;
+  padding-right: 100px;
 }
 .menu-log_in {
   display: flex;
   align-items: center;
   width: 74px;
 }
+.menu-log_in:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+  transition: 0.4s all;
+}
 .menu-cart {
   display: flex;
   align-items: center;
   width: 36px;
+}
+.menu-cart:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+  transition: 0.4s all;
 }
 .burger {
   display: flex;
@@ -45,6 +58,13 @@
   background-color: #fff;
   box-shadow: 0 8px 40px  rgba(0, 0, 0, 0.08);
   transform: scale(1);
+}
+.burger:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+  transition: 0.4s all;
+  box-shadow: 0 8px 40px  rgba(0, 0, 0, 0.15);
+  
 }
 .burger span {
   width: 24px;
@@ -63,4 +83,34 @@
 }
 .burger::after {
   bottom: 12px;
+}
+
+@media (max-width: 1440px) {
+  .logo-container {
+    padding-left: 80px;
+  }
+  .menu {
+    padding-right: 80px;
+    justify-content: end;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .logo-container {
+    padding-left: 60px;
+  }
+  .logo-container img {
+    width: 80%;
+  }
+  .menu {
+    padding-right: 60px;
+    justify-content: end;
+  }
+  .menu-log_in {
+    display: none;
+  }
+  .menu-cart {
+    display: none;
+  }
 }
