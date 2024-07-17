@@ -98,13 +98,13 @@
 
 @media (max-width: 768px) {
   .logo-container {
-    padding-left: 60px;
+    padding-left: 30px;
   }
   .logo-container img {
-    width: 80%;
+    width:  100%;
   }
   .menu {
-    padding-right: 60px;
+    padding-right: 30px;
     justify-content: end;
   }
   .menu-log_in {

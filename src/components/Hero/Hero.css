@@ -123,6 +123,7 @@ p > span {
   }
   .buttons {
     max-width: 200px;
+    margin-top: 40px;
   }
   .hero-btn {
     width: 100px;
@@ -160,6 +161,7 @@ p > span {
   }
   .buttons {
     max-width: 180px;
+    margin-top: 20px;
   }
   .hero-btn {
     width: 80px;
@@ -180,6 +182,73 @@ p > span {
     margin-bottom: 25px;
   }
   .hero-second-container {
-      width: 772px;
+      width: 752px;
+  }
+}
+@media (max-width: 800px) {
+  .hero-title {
+    position: absolute;
+    left: 200px;
+    width: 338px;
+    height: 288px;
+    margin-bottom: 350px;
+  }
+  h1 {
+    font-size: 36px;
+  }
+  .buttons {
+    max-width: 180px;
+  }
+  .image img {
+    width: 300px;
+    height: 250px;
+   margin-top: 450px;
+  }
+  .hero-second-container {
+    flex-direction: column;
+    justify-content: space-around;
+    width: 296px;
+    height: 370px;
+  }
+  .hero-component-icon {
+    justify-content: flex-start;
+  }
+}
+@media (max-width: 720px) {
+  .hero-title {
+    left: 100px;
+    width: 338px;
+    height: 288px;
+  }
+  h1 {
+    font-size: 28px;
+  }
+  .buttons {
+    max-width: 180px;
+  }
+  .image img {
+    display: none;
+  }
+  .hero-second-container {
+    width: 296px;
+    height: 370px;
+  }
+}
+@media (max-width: 500px) {
+  .hero-title {
+    left: 20px;
+    width: 338px;
+    height: 288px;
+  }
+  .hero-second-container {
+    width: 246px;
+    height: 370px;
+  }
+  .hero-component-icon img {
+    width: 36px;
+    height: 36px;
+  }
+  .hero-component-icon p {
+    font-size: 16px;
   }
 }
